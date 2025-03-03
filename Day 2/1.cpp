@@ -1,5 +1,6 @@
 // Q : https://www.geeksforgeeks.org/problems/good-or-bad-string1417/1
-
+//TC : O(n)
+//SC : O(1)
 class Solution {
   public:
   int isVowel(char ch) {
