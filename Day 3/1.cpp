@@ -2,6 +2,9 @@
 
 //Approach : swapped each row of the 2D vector then toggled every 0s and 1s
 
+//TC : O(mn)
+//SC : O(1)
+
 class Solution {
 public:
     vector<vector<int>> flipAndInvertImage(vector<vector<int>>& image) {
