@@ -1,7 +1,7 @@
 //q-1 : https://leetcode.com/problems/rearrange-array-elements-by-sign/description/
 //Approach : Stored positive and negative elements in 2 different vectors then combined according to the given conditions in nums
-//TC : O(N)
-//SC : O(N)
+//TC : O(n)
+//SC : O(n)
 class Solution {
 public:
     vector<int> rearrangeArray(vector<int>& nums) {
