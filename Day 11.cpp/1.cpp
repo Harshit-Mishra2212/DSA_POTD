@@ -1,7 +1,7 @@
 //q-1: https://leetcode.com/problems/pascals-triangle/description/
 //Approach : Using two loops, stored the required row of the pascal traingle by the general fact that an element at (i,j) is a sum of elements at (i-1,j) and (i-1,j-1)
 //TC : O(numRows^2) 
-//SC : O(1) 
+//SC : O(N^2) 
 class Solution {
 public:
     vector<vector<int>> generate(int numRows) {
